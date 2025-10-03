@@ -1,0 +1,13 @@
+Timestamp,User,IP Address,Threat,Severity,Detection Tool,Action Taken,Status,Action Notes
+2025-07-03 09:10:14,bob,172.16.0.3,Ransomware,High,Splunk,Host isolated,Remediated,User notified; endpoint isolated and scanned
+2025-07-03 07:51:14,eve,10.0.0.5,Rootkit,High,Splunk,Host isolated,Pending,Isolation performed; full rootkit scan pending
+2025-07-03 07:45:14,charlie,172.16.0.3,Trojan,High,Splunk,Antivirus scan,Remediated,Antivirus scan completed; malware removed
+2025-07-03 05:48:14,bob,10.0.0.5,Trojan,High,Splunk,Antivirus scan,Remediated,Antivirus scan completed; user credentials reset
+2025-07-03 05:42:14,eric,203.0.113.77,Trojan,High,Splunk,Monitor traffic,Monitoring,Network traffic monitored; alerts in place for lateral movement
+2025-07-03 05:30:14,eve,192.168.1.101,Trojan,High,Splunk,Antivirus scan,Remediated,Antivirus scan completed; host patched
+2025-07-03 05:06:14,bob,203.0.113.77,Worm,High,Splunk,Host isolated,Pending,Isolation performed; monitoring for worm spread
+2025-07-03 04:41:14,alice,172.16.0.3,Spyware,Medium,Splunk,Antivirus scan,Remediated,Spyware removed; no sensitive data exfiltrated
+2025-07-03 04:29:14,alice,192.168.1.101,Trojan,High,Splunk,Host isolated,Remediated,Host isolated; malware removed and scanned
+2025-07-03 04:19:14,alice,198.51.100.42,Rootkit,High,Splunk,Host isolated,Pending,Host isolated; rootkit scan scheduled
+2025-07-03 04:10:14,david,10.0.0.8,Trojan,High,Splunk,Antivirus scan,Remediated,Malware removed; endpoint verified clean
+
